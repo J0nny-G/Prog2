@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.PesquisarTalentos"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="133.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pesquisar Talentos">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="233.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome da Skill" />
+        <TextField fx:id="idNomeS" layoutX="196.0" layoutY="147.0" />
+        <Button fx:id="idPesquisar" layoutX="133.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnPesquisar" prefHeight="46.0" prefWidth="80.0" text="Pesquisar" />
+        <Button fx:id="idVoltar" layoutX="326.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="46.0" prefWidth="80.0" text="Voltar" />
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.MenuDescricao"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="189.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Criar Descrição">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="115.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titulo" />
+        <TextField fx:id="idTitulo" layoutX="108.0" layoutY="115.0" />
+        <Text layoutX="115.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome da Empresa" />
+        <TextField fx:id="idNomeEmpresa" layoutX="108.0" layoutY="173.0" />
+        <DatePicker fx:id="idDcomeco" layoutX="108.0" layoutY="222.0" />
+        <DatePicker fx:id="idDtermino" layoutX="108.0" layoutY="270.0" />
+        <Text layoutX="115.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de Começo" />
+        <Text layoutX="115.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de término" />
+        <Button fx:id="idCDescricao" layoutX="132.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnCDescricao" prefHeight="41.0" prefWidth="97.0" text="Criar Descrição" />
+        <Button fx:id="idVoltar" layoutX="449.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="41.0" prefWidth="97.0" text="Voltar" />
+        <ComboBox fx:id="idCbTalento" layoutX="374.0" layoutY="115.0" prefWidth="150.0" />
+        <Text layoutX="380.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Talento" />
+    </children>
+
+</AnchorPane>

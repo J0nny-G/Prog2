@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.RegistarProposta"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="134.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registar Propostas">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="88.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+        <TextField fx:id="idNomePropostas" layoutX="81.0" layoutY="128.0" prefHeight="25.0" prefWidth="165.0" />
+        <Text layoutX="88.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categoria do talento" />
+        <TextField fx:id="idCategoriaT" layoutX="81.0" layoutY="176.0" prefHeight="25.0" prefWidth="165.0" />
+        <Text layoutX="88.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skills necessárias" />
+        <TextField fx:id="idSkillNe" layoutX="81.0" layoutY="226.0" prefHeight="25.0" prefWidth="165.0" />
+        <Text layoutX="88.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimo de anos de experiencia" />
+        <TextField fx:id="idMinExperiencia" layoutX="81.0" layoutY="276.0" prefHeight="25.0" prefWidth="165.0" />
+        <Text layoutX="327.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de horas de trabalho" />
+        <TextField fx:id="idNHorasT" layoutX="321.0" layoutY="128.0" prefHeight="25.0" prefWidth="165.0" />
+        <Button fx:id="idRegistarP" layoutX="126.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnRegistarP" prefHeight="41.0" prefWidth="116.0" text="Registar Processo" />
+        <Button fx:id="idVoltar" layoutX="368.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="41.0" prefWidth="116.0" text="Voltar" />
+    </children>
+
+</AnchorPane>

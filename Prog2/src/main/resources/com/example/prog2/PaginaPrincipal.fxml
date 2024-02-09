@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.PaginaPrincipal"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button layoutX="79.0" layoutY="227.0" mnemonicParsing="false" onAction="#btnLogin" text="Login" />
+        <Button layoutX="177.0" layoutY="227.0" mnemonicParsing="false" onAction="#btnCriarConta" text="Criar Conta" />
+        <TextField id="txtutilizador" fx:id="username" layoutX="79.0" layoutY="89.0" prefHeight="26.0" prefWidth="179.0" />
+        <Text layoutX="79.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilizador" wrappingWidth="89.20442962646484" />
+        <Text layoutX="79.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+        <PasswordField fx:id="password" layoutX="79.0" layoutY="168.0" prefHeight="26.0" prefWidth="179.0" />
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+    </children>
+</AnchorPane>

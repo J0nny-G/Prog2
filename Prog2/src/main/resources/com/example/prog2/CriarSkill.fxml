@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.MenuSkill"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="238.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skill">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="69.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome da skill" />
+        <TextField fx:id="idNomeSkill" layoutX="68.0" layoutY="108.0" />
+        <Text layoutX="69.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area profissional" />
+        <Button fx:id="idcriar" layoutX="68.0" layoutY="261.0" mnemonicParsing="false" onAction="#btnCriar" text="Criar Skill" />
+        <RadioButton fx:id="idrddevolopers" layoutX="70.0" layoutY="167.0" mnemonicParsing="false" onAction="#rddevolepes" text="developers">
+            <toggleGroup>
+                <ToggleGroup fx:id="Area" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="idux" layoutX="69.0" layoutY="192.0" mnemonicParsing="false" onAction="#rdux" text="ux specialists" toggleGroup="$Area" />
+        <RadioButton fx:id="idpm" layoutX="69.0" layoutY="216.0" mnemonicParsing="false" onAction="#rdpm" text="product managers" toggleGroup="$Area" />
+        <Button fx:id="idvoltar" layoutX="427.0" layoutY="261.0" mnemonicParsing="false" onAction="#btnvoltar" text="Voltar" />
+    </children>
+
+</AnchorPane>

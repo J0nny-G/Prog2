@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.ListarTalentos"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+        <Text layoutX="171.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listar Talentos">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Button fx:id="idVoltar" layoutX="450.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="41.0" prefWidth="70.0" text="Voltar" />
+        <ListView fx:id="ListTalentos" layoutX="93.0" layoutY="101.0" prefHeight="211.0" prefWidth="355.0" />
+    </children>
+
+</AnchorPane>

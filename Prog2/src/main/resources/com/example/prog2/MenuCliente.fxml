@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.MenuCliente"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="170.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Criar Cliente">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="77.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+        <Text layoutX="77.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="País" />
+        <Text layoutX="78.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+        <Text layoutX="291.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Talento" />
+        <TextField fx:id="idNome" layoutX="72.0" layoutY="122.0" />
+        <TextField fx:id="idPais" layoutX="72.0" layoutY="171.0" />
+        <TextField fx:id="idEmail" layoutX="72.0" layoutY="221.0" />
+        <Button fx:id="idcriarcliente" layoutX="291.0" layoutY="184.0" mnemonicParsing="false" onAction="#btncriarcliente" text="Criar Cliente" />
+        <Button fx:id="idvoltar" layoutX="441.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnvoltar" text="Voltar" />
+        <ComboBox fx:id="cmbtalento" layoutX="291.0" layoutY="135.0" prefWidth="150.0" promptText="selecionar..." />
+    </children>
+
+</AnchorPane>

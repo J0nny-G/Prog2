@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.MenuUtilizador"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="152.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu Utilizador">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Button fx:id="idEditarSkill" layoutX="287.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnEditarSkill" prefHeight="33.0" prefWidth="120.0" text="Editar Skill" />
+        <Button fx:id="idCriarSkill" layoutX="134.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnCriarSkill" prefHeight="33.0" prefWidth="120.0" text="Criar Skill" />
+        <Button fx:id="idCriarTalento" layoutX="287.0" layoutY="124.0" mnemonicParsing="false" onAction="#btnCriarTalento" prefHeight="33.0" prefWidth="120.0" text="Criar Talento" />
+        <Button fx:id="idCriarCliente" layoutX="134.0" layoutY="124.0" mnemonicParsing="false" onAction="#btnCriarCliente" prefHeight="33.0" prefWidth="120.0" text="Criar Cliente" />
+        <Button fx:id="idvoltar" layoutX="427.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnSair" prefHeight="33.0" prefWidth="99.0" text="Sair" />
+        <Button fx:id="idSkillTalento" layoutX="134.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnSkillTalento" prefHeight="33.0" prefWidth="120.0" text="Associar Skill" />
+        <Button fx:id="idCriarD" layoutX="287.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnCriarD" prefHeight="33.0" prefWidth="120.0" text="Criar Descrição" />
+        <Button fx:id="idPTalento" layoutX="134.0" layoutY="210.0" mnemonicParsing="false" onAction="#btnPTalento" prefHeight="33.0" prefWidth="120.0" text="Pesquisar Talento" />
+        <Button fx:id="idRPropostas" layoutX="287.0" layoutY="210.0" mnemonicParsing="false" onAction="#btnRPropostas" prefHeight="33.0" prefWidth="120.0" text="Registar Propostas" />
+    </children>
+
+</AnchorPane>

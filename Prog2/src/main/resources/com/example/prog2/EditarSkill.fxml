@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.EditarSkill"
+            prefHeight="400.0" prefWidth="600.0" >
+    <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+        <Text layoutX="186.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar Skills">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Button fx:id="idVoltar" layoutX="450.0" layoutY="322.0" mnemonicParsing="false" onAction="#BtnVoltar" prefHeight="41.0" prefWidth="70.0" text="Voltar" />
+        <ListView fx:id="ListSkills" layoutX="22.0" layoutY="97.0" prefHeight="238.0" prefWidth="199.0" />
+        <Text layoutX="289.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome da skill" />
+        <TextField fx:id="idNomeSkill" layoutX="284.0" layoutY="116.0" />
+        <Text layoutX="289.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area profissional" />
+        <RadioButton fx:id="idrddevolopers" layoutX="289.0" layoutY="170.0" mnemonicParsing="false" onAction="#rddevolepes" text="developers">
+            <toggleGroup>
+                <ToggleGroup fx:id="Area" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="idux" layoutX="289.0" layoutY="192.0" mnemonicParsing="false" onAction="#rdux" text="ux specialists" toggleGroup="$Area" />
+        <RadioButton fx:id="idpm" layoutX="289.0" layoutY="216.0" mnemonicParsing="false" onAction="#rdpm" text="product managers" toggleGroup="$Area" />
+        <Button layoutX="338.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnEditar" prefHeight="41.0" prefWidth="72.0" text="Editar" />
+    </children>
+</AnchorPane>

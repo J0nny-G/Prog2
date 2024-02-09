@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.MenuPerfilTalento"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="170.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfil Talento">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="77.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+        <Text layoutX="77.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="País" />
+        <Text layoutX="78.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+        <Text layoutX="77.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço por hora" />
+        <Text layoutX="291.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de perfil" />
+        <TextField fx:id="idNome" layoutX="72.0" layoutY="122.0" />
+        <TextField fx:id="idPais" layoutX="72.0" layoutY="171.0" />
+        <TextField fx:id="idEmail" layoutX="72.0" layoutY="221.0" />
+        <TextField fx:id="idPrecoH" layoutX="72.0" layoutY="270.0" />
+        <ComboBox fx:id="idperfil" layoutX="291.0" layoutY="135.0" onAction="#cmbperfil" prefWidth="150.0" promptText="Perfil..." />
+        <Button fx:id="idcriartalento" layoutX="291.0" layoutY="184.0" mnemonicParsing="false" onAction="#btncriartalento" text="Criar Talento" />
+        <Button fx:id="idvoltar" layoutX="441.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnvoltar" text="Voltar" />
+    </children>
+
+</AnchorPane>

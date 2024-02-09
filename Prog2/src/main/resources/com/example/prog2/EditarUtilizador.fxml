@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.prog2.EditarUtilizador"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text layoutX="149.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar Utilizador">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <ListView fx:id="ListUtilizador" layoutX="40.0" layoutY="98.0" prefHeight="265.0" prefWidth="200.0" />
+        <Text layoutX="261.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+        <TextField fx:id="idNome" layoutX="254.0" layoutY="115.0" />
+        <Text layoutX="263.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+        <TextField fx:id="idEmail" layoutX="254.0" layoutY="157.0" />
+        <Text layoutX="261.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIF" />
+        <TextField fx:id="idNIF" layoutX="254.0" layoutY="199.0" />
+        <Text layoutX="262.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telemóvel" />
+        <TextField fx:id="idTelemovel" layoutX="254.0" layoutY="242.0" />
+        <Text layoutX="262.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+        <TextField fx:id="idUsername" layoutX="254.0" layoutY="283.0" />
+        <Text layoutX="263.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+        <PasswordField fx:id="idPassword" layoutX="254.0" layoutY="324.0" />
+        <Button fx:id="idEditarDados" layoutX="428.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnEditarDados" prefHeight="41.0" prefWidth="84.0" text="Editar Dados" />
+        <Button fx:id="idVoltar" layoutX="428.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="41.0" prefWidth="84.0" text="Voltar" />
+    </children>
+
+</AnchorPane>
